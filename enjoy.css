@@ -1,0 +1,133 @@
+body{
+    animation: colorChange 60s infinite;
+}
+
+#main{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px rgb(0, 0, 0) solid;
+    position: absolute;
+    left: 350px;
+    top: 200px;
+    height: 350px;
+    
+}
+
+button{
+    background-color: black;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+
+}
+
+#funct{
+    color: orange;
+}
+
+#norml{
+    color: white;
+}
+
+#ans{
+    border-width: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-size: 13pt;
+    text-align: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+    height: 35px;
+    padding-right: 90px;
+}
+
+#fistrow{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    
+    & .funct2{
+        margin-left: 15px;
+    }
+    & .funct3{
+        margin-left: 15px;
+    }
+    & .funct4{
+        margin-left: 15px;
+    }
+    & .funct5{
+        margin-left: 15px;
+    }
+
+}
+
+#secrow{
+    margin-bottom: 25px;
+    margin-left: 10px;
+
+    & .norml2{
+        margin-left: 28px;
+    }
+    & .norml3{
+        margin-left: 31px;
+    }
+    & .funct6{
+        margin-left: 37px;
+    }
+    & .funct7{
+        margin-left: 43px;
+    }
+    
+}
+
+#thdrow{
+    margin-bottom: 25px;
+    margin-left: 10px;
+
+    & .norml5{
+        margin-left: 28px;
+    }
+    & .norml6{
+        margin-left: 31px;
+    }
+    & .funct8{
+        margin-left: 37px;
+    }
+    & .funct9{
+        margin-left: 44px;
+    }
+
+}
+
+#forrow{
+    margin-bottom: 25px;
+    margin-left: 10px;
+
+    & .norml8{
+        margin-left: 28px;
+    }
+    & .norml9{
+        margin-left: 31px;
+    }
+    & .norml10{
+        margin-left: 37px;
+    }
+    & .norml11{
+        margin-left: 24px;
+    }
+    & .funct10{
+        margin-left: 22px;
+    }
+}
+
+@keyframes colorChange {
+    0%   { background: gray; }
+    25%  { background: white; }
+    50%  { background: gray; }
+    75%  { background: white; }
+    100% { background: gray; }
+}
