@@ -7,7 +7,7 @@ body{
     border-radius: 30px;
     border: 2px rgb(0, 0, 0) solid;
     position: absolute;
-    left: 350px;
+    left: 1px;
     top: 200px;
 }
 
@@ -131,4 +131,5 @@ button{
     75%  { background: white; }
     100% { background: gray; }
 }
+
 
