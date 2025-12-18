@@ -4,16 +4,15 @@ body{
 
 #main{
     background-color: rgb(0, 0, 0);
-    border-radius: 10px;
+    border-radius: 30px;
     border: 2px rgb(0, 0, 0) solid;
     position: absolute;
     left: 350px;
     top: 200px;
-    height: 350px;
-    
 }
 
 button{
+    padding: 30px;
     background-color: black;
     border-width: 0px;
     border-radius: 5px;
@@ -32,9 +31,9 @@ button{
 #ans{
     border-width: 0px;
     border-radius: 10px;
-    color: white;
-    background-color: black;
-    font-size: 13pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 25pt;
     text-align: end;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -42,6 +41,7 @@ button{
     margin-right: 5px;
     padding: 15px;
     height: 35px;
+    width: 525px;
     padding-right: 90px;
 }
 
@@ -57,10 +57,10 @@ button{
         margin-left: 15px;
     }
     & .funct4{
-        margin-left: 15px;
+        margin-left: 27px;
     }
     & .funct5{
-        margin-left: 15px;
+        margin-left: 32px;
     }
 
 }
@@ -131,3 +131,4 @@ button{
     75%  { background: white; }
     100% { background: gray; }
 }
+
