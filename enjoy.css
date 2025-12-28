@@ -124,6 +124,18 @@ button{
     }
 }
 
+#sec {
+    position: relative;
+    top: 800px;
+    left: 100px;
+}
+
+#cl {
+    font-size: 35px;
+    color: black;
+    text-decoration: solid;
+}
+
 @keyframes colorChange {
     0%   { background: gray; }
     25%  { background: white; }
@@ -131,5 +143,6 @@ button{
     75%  { background: white; }
     100% { background: gray; }
 }
+
 
 
