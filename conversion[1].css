@@ -1,0 +1,208 @@
+body {
+    animation: colorChange 60s infinite;
+}
+
+.main1 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border: 2px rgb(0, 0, 0) solid;
+    width: 440px;
+    padding: 10px;
+}
+
+#selection {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+#input {
+    text-align: center;
+    border-width: 1px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+#output {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 45px;
+}
+
+#ans {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#input-display {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-width: 0px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#output-display {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border-width: 0px;
+
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+#fistrow {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+
+    & #funct1 {
+        margin-left: 25px;
+        color: orange;
+    }
+
+    & #funct2 {
+        margin-left: 25px;
+        color: orange;
+    }
+
+    & #norml1 {
+        margin-left: 25px;
+    }
+
+    & #norml2 {
+        margin-left: 25px;
+    }
+
+    & #funct3 {
+        margin-left: 25px;
+        color: orange;
+    }
+}
+
+#secrow {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+
+    & #norml3 {
+        margin-left: 28px;
+    }
+
+    & #norml4 {
+        margin-left: 55px;
+    }
+
+    & #norml5 {
+        margin-left: 35px;
+    }
+
+    & #norml6 {
+        margin-left: 25px;
+    }
+
+    & #norml7 {
+        margin-left: 25px;
+    }
+}
+
+#thdrow {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+
+    & #norml8 {
+        margin-left: 28px;
+    }
+
+    & #norml9 {
+        margin-left: 55px;
+    }
+
+    & #norml10 {
+        margin-left: 35px;
+    }
+
+    & #norml11 {
+        margin-left: 25px;
+    }
+
+    & #norml12 {
+        margin-left: 25px;
+    }
+}
+
+#forrow {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px;
+
+    & #norml13 {
+        margin-left: 28px;
+    }
+
+    & #norml14 {
+        margin-left: 55px;
+    }
+
+    & #norml15 {
+        margin-left: 35px;
+    }
+
+    & #norml16 {
+        margin-left: 28px;
+    }
+
+    & #norml17 {
+        margin-left: 29px;
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        background: gray;
+    }
+
+    25% {
+        background: white;
+    }
+
+    50% {
+        background: gray;
+    }
+
+    75% {
+        background: white;
+    }
+
+    100% {
+        background: gray;
+    }
+}

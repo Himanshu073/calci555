@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversion</title>
+    <link rel="stylesheet" href="conversion[1].css">
+</head>
+
+<body>
+    <div class="main1">
+        <div id="selection">
+            <select name="asf" id="input" onchange="choicetyp()">
+                <option id="op1" value="">--select input type--</option>
+                <option id="op" value="BIN">Binary BIN</option>
+                <option id="op" value="OCT">Octal OCT</option>
+                <option id="op" value="DEC">Decimal DEC</option>
+                <option id="op" value="HEX">Hexadecimal HEX</option>
+            </select>
+            <select name="asf" id="output" onchange="choicetyp()">
+                <option value="">--select output type--</option>
+                <option value="BIN">Binary BIN</option>
+                <option value="OCT">Octal OCT</option>
+                <option value="DEC">Decimal DEC</option>
+                <option value="HEX">Hexadecimal HEX</option>
+            </select>
+        </div>
+        <div id="ans">
+            <input type="text" id="input-display">
+            <input type="text" id="output-display">
+        </div>
+
+        <div id="fistrow">
+            <button id="funct1" class="funct1" onclick="allclear()">AC</button>
+            <button id="funct2" class="funct2" onclick="del()">Delete</button>
+            <button id="norml1" class="g1 g3 g4 btn" onclick="prina('A')">A</button>
+            <button id="norml2" class="g1 g3 g4 btn" onclick="prina('B')">B</button>
+            <button id="funct3" class="funct3" onclick="ev()">=</button>
+        </div>
+
+        <div id="secrow">
+            <button id="norml3" class="g1 btn" onclick="prina(7)">7</button>
+            <button id="norml4" class="g1 g3 btn" onclick="prina(8)">8</button>
+            <button id="norml5" class="g1 g3 btn" onclick="prina(9)">9</button>
+            <button id="norml6" class="g1 g3 g4 btn" onclick="prina('C')">C</button>
+            <button id="norml7" class="g1 g3 g4 btn" onclick="prina('D')">D</button>
+        </div>
+
+        <div id="thdrow">
+            <button id="norml8" class="g1 btn" onclick="prina(4)">4</button>
+            <button id="norml9" class="g1 btn" onclick="prina(5)">5</button>
+            <button id="norml10" class="g1 btn" onclick="prina(6)">6</button>
+            <button id="norml11" class="g1 g3 g4 btn" onclick="prina('E')">E</button>
+            <button id="norml12" class="g1 g3 g4 btn" onclick="prina('F')">F</button>
+        </div>
+
+        <div id="forrow">
+            <button id="norml13" class="g2 btn" onclick="prina(1)">1</button>
+            <button id="norml14" class="g1 btn" onclick="prina(2)">2</button>
+            <button id="norml15" class="g1 btn" onclick="prina(3)">3</button>
+            <button id="norml16" class="g2 btn" onclick="prina('.')">.</button>
+            <button id="norml17" class="g2 btn" onclick="prina(0)">0</button>
+
+        </div>
+    </div>
+
+    <script src="conversion[1].js"></script>
+</body>
+
+</html>
