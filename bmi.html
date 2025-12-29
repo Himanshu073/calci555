@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmi[2].css">
+    <title>BMI</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="selection">
+            <select name="" id="wght" onchange="choicetyp()">
+                <option value="non">Select Weight</option>
+                <option value="kg">Kilograms</option>
+                <option value="pnd">pounds</option>
+            </select>
+            <select name="" id="hght" onchange="choicetyp()">
+                <option value="non">Select Height</option>
+                <option value="mt">Meters</option>
+                <option value="cmt">Centimeters</option>
+                <option value="ft">Feet</option>
+                <option value="inch">Inches</option>
+            </select>
+        </div>
+
+        <div id="dis">
+            <input type="text" id="Weig">
+            <input type="text" id="hight">
+        </div>
+
+        <div id="fistrow">
+            <button id="funct1" class="funct1" onclick="allclear()">C</button>
+            <button id="funct2" class="funct2" onclick="del()">Delete</button>
+            <button id="funct3" class="funct3" onclick="ev()">=</button>
+            <p id="under">Underweight:- 0 to 18.5</p>
+        </div>
+
+        <div id="secrow">
+            <button id="norml3" class="g1 btn" onclick="prina(7)">7</button>
+            <button id="norml4" class="g1 g3 btn" onclick="prina(8)">8</button>
+            <button id="norml5" class="g1 g3 btn" onclick="prina(9)">9</button>
+            <p id="normal">Normal:- 18.6 to 25.0</p>
+        </div>
+
+        <div id="thdrow">
+            <button id="norml8" class="g1 btn" onclick="prina(4)">4</button>
+            <button id="norml9" class="g1 btn" onclick="prina(5)">5</button>
+            <button id="norml10" class="g1 btn" onclick="prina(6)">6</button>
+            <p id="over">Overweight:- 25.1 to 40.0</p>
+        </div>
+
+        <div id="forrow">
+            <button id="norml13" class="g2 btn" onclick="prina(1)">1</button>
+            <button id="norml14" class="g1 btn" onclick="prina(2)">2</button>
+            <button id="norml15" class="g1 btn" onclick="prina(3)">3</button>
+            <button id="norml16" class="g2 btn" onclick="prina('.')">.</button>
+            <button id="norml17" class="g2 btn" onclick="prina(0)">0</button>
+        </div>
+        <div id="an">
+            <input type="text" id="output-display" readonly>
+        </div>
+    </div>
+
+    <script src="bmi[1].js"></script>
+
+</body>
+
+</html>
