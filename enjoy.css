@@ -130,7 +130,13 @@ button{
     left: 100px;
 }
 
-#cl {
+#cl2 {
+    font-size: 35px;
+    color: black;
+    text-decoration: solid;
+}
+
+#cl3 {
     font-size: 35px;
     color: black;
     text-decoration: solid;
@@ -143,6 +149,7 @@ button{
     75%  { background: white; }
     100% { background: gray; }
 }
+
 
 
 
